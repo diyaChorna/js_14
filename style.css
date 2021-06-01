@@ -1,0 +1,64 @@
+*{
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+  }
+  .all{
+      height: 356px;
+      display: flex;
+      justify-content: center;
+  }
+  .box{
+      width: 70%;
+      height: 100%;
+  }
+  .one{
+      height: 45%;
+  }
+  .text1, .text2{
+      height: 20%;
+      margin-top: 1%;
+      padding-left: 1.5%;
+  }
+  .inbut{
+      height: 40%;
+      display: flex;
+  }
+  .input, .button, .placeholder{
+      height: 100%;
+      width: 100%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+  }
+  .inputText, .buttonPerson, .inputPerson{
+      width: 90%;
+      height: 60%;
+  }
+  .buttonPerson{
+      background-color: rgb(0, 177, 53);
+      color:white;
+      font-size: 17px;
+  }
+  .two{
+      height: 45%;
+  }
+  .text3, .text4{
+      height: 20%;
+      margin-top: 1%;
+      padding-left: 1.5%;
+  }
+  .inbut2{
+      height: 40%;
+  }
+  .input{
+      height: 100%;
+      width: 100%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+  }
+  .inputPlaceholder{
+      width: 97%;
+      height: 60%;
+  }
